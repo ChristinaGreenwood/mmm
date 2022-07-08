@@ -1,0 +1,10 @@
+// base styles
+body {
+margin: 0px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}

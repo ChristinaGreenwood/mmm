@@ -1,0 +1,54 @@
+//portfolio-detail
+
+.portfolio-detail-wrapper{
+    width: 100vw;
+    .banner {
+        height: calc(100vh - 84px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.7) 950px -980px 336px -30px inset;    }
+
+    .portfolio-detail-description-wrapper {
+        text-align: center;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .item-title {
+            font-size: 4em;
+            color: $offwhite;
+            margin-bottom: 85px;
+
+        }
+
+        .description {
+            color: $offwhite;
+            width: 700px;
+            font-size: 2em;
+            font-weight: 500;
+            line-height: 1.4em;
+            margin-bottom: 20px;
+            // padding-bottom: 50px;
+        }
+    }
+    .bottom-content-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+
+        .site-link {
+            padding: 15px;
+            text-decoration: none;
+            color: $teal;
+            transition: 0.5s ease-in-out;
+            font-size: 2.2em;
+          
+            &:hover {
+              background-color: $dark-teal;
+            }
+        }
+    }
+}
+
